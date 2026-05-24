@@ -1,0 +1,112 @@
+body {
+
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+}
+
+.card {
+
+    border-radius: 20px;
+
+    border: none;
+
+    background: white;
+}
+
+.list-group-item {
+
+    border-radius: 12px !important;
+
+    margin-bottom: 10px;
+
+    border: none;
+
+    background: #f8f9fa;
+
+    transition: 0.3s;
+}
+
+.list-group-item:hover {
+
+    transform: scale(1.02);
+
+    background: #eef2ff;
+}
+
+.btn {
+
+    border-radius: 10px;
+}
+
+.completed-task {
+
+    text-decoration: line-through;
+
+    color: green;
+
+    font-weight: bold;
+}
+
+.badge {
+
+    margin-top: 5px;
+
+    margin-right: 5px;
+
+    padding: 8px;
+}
+
+.card h2 {
+
+    font-weight: bold;
+}
+
+.dark-mode {
+
+    background: linear-gradient(
+        135deg,
+        #141e30,
+        #243b55
+    );
+}
+
+.dark-mode .card {
+
+    background-color: #1f2937;
+
+    color: white;
+}
+
+.dark-mode .list-group-item {
+
+    background-color: #374151;
+
+    color: white;
+}
+
+.dark-mode .form-control,
+.dark-mode .form-select {
+
+    background-color: #4b5563;
+
+    color: white;
+
+    border: none;
+}
+
+.dark-mode .text-muted {
+
+    color: #d1d5db !important;
+}
+
+.dark-mode .navbar {
+
+    background-color: #111827 !important;
+}
